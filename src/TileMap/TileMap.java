@@ -1,13 +1,12 @@
 package TileMap;
 
-import Main.GamePanel;
-
-import javax.imageio.ImageIO;
 import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.awt.image.*;
+
+import java.io.*;
+import javax.imageio.ImageIO;
+
+import Main.GamePanel;
 
 public class TileMap {
 
@@ -99,6 +98,11 @@ public class TileMap {
             width = numCols * tileSize;
             height = numRows * tileSize;
 
+            xmin = GamePanel.WIDTH - width;
+            xmax = 0;
+            ymin = GamePanel.HEIGHT - height;
+            ymax = 0;
+
             String delims = "\\s+";
             for(int row = 0; row < numRows; row++) {
                 String line = br.readLine();
@@ -127,6 +131,8 @@ public class TileMap {
         int c = rc % numTilesAcross;
         return tiles[r][c].getType();
     }
+
+    public void setTween(double d) { tween = d; }
 
     public void setPosition(double x, double y) {
 
