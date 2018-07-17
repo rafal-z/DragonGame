@@ -17,3 +17,28 @@ The program was written in Java with the use of Swing. The following algorithms 
     * Bilateral Filter
     
 ## Gaussian Blur Filter
+* sdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
+* sdfsdf
